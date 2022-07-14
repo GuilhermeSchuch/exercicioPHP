@@ -2,6 +2,7 @@
     /**
      * <b>Documentation</b>
      * @author Guilherme Schuch
+     * @version 1.0
      */
 
     class Person{
