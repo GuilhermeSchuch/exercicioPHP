@@ -5,45 +5,43 @@
      */
 
     class Person{
+        private $name;
+        private $birthday;
+        private $SSN; // Social Security Number (CPF)
+        private $IdCard; // Identity Card (RG)
 
-        /**
-         * <b>Constructor</b>
-         * This is the constructor of the class.
-         * @param string $name The name of the person.
-         * @param string $birthday The $irthday of the person.
-         * @param int $SSN The Social Security Number of the person.
-         * @param int $IdCard The ID Card of the person.
-         */
-
-        public $name;
-        public $birthday;
-        public $SSN; // Social Security Number (CPF)
-        public $IdCard; // Identity Card (RG)
-
+        /** Set name function */
         public function setName($name){
             $this->name = $name;
         }
+        /** Get name function */
         public function getName(){
             return $this->name;
         }
 
+        /** Set birthday function */
         public function setBirthday($birthday){
             $this->birthday = $birthday;
         }
+        /** Get birthday function */
         public function getBirthday(){
             return $this->birthday;
         }
 
+        /** Set SSN function */
         public function setSSN($SSN){
             $this->SSN = $SSN;
         }
+        /** Get SSN function */
         public function getSSN(){
             return $this->SSN;
         }
 
+        /** Set ID Card function */
         public function setIdCard($IdCard){
             $this->IdCard = $IdCard;
         }
+        /** Get ID Card function */
         public function getIdCard(){
             return $this->IdCard;
         }
@@ -58,22 +56,13 @@
 
 
     class Engeneer extends Person{
+        private $CREA;
 
-        /**
-         * <b>Constructor</b>
-         * This is the constructor of the class.
-         * @param string $name The name of the person.
-         * @param string $birthday The $irthday of the person.
-         * @param int $SSN The Social Security Number of the person.
-         * @param int $IdCard The ID Card of the person.
-         * @param int $CREA The CREA of the engeneer.
-         */
-
-        public $CREA;
-
+        /** Set CREA function */
         public function setCrea($CREA){
             $this->CREA = $CREA;
         }
+        /** Get CREA function */
         public function getCrea(){
             return $this->CREA;
         }
@@ -88,22 +77,13 @@
 
 
     class Doctor extends Person{
+        private $CRM;
 
-        /**
-         * <b>Constructor</b>
-         * This is the constructor of the class.
-         * @param string $name The name of the person.
-         * @param string $birthday The $irthday of the person.
-         * @param int $SSN The Social Security Number of the person.
-         * @param int $IdCard The ID Card of the person.
-         * @param int $CRM The CRM of the doctor.
-         */
-        
-        public $CRM;
-
+        /** Set CRM function */
         public function setCrm($CRM){
             $this->CRM = $CRM;
         }
+        /** Get CRM function */
         public function getCrm(){
             return $this->CRM;
         }
