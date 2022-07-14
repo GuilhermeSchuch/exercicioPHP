@@ -10,38 +10,55 @@
         private $SSN; // Social Security Number (CPF)
         private $IdCard; // Identity Card (RG)
 
-        /** Set name function */
+        /** 
+         * Set name function 
+         * @param String
+         * */
         public function setName($name){
             $this->name = $name;
         }
-        /** Get name function */
+        /** 
+         * Get name function 
+         * @return String*/
         public function getName(){
             return $this->name;
         }
 
-        /** Set birthday function */
+        /** 
+         * Set birthday function 
+         * @param String*/
         public function setBirthday($birthday){
             $this->birthday = $birthday;
         }
-        /** Get birthday function */
+        /** 
+         * Get birthday function 
+         * @return String*/
         public function getBirthday(){
             return $this->birthday;
         }
 
-        /** Set SSN function */
+        /** 
+         * Set SSN function 
+         * @param String*/
         public function setSSN($SSN){
             $this->SSN = $SSN;
         }
-        /** Get SSN function */
+        /** 
+         * Get SSN function 
+         * @return String*/
         public function getSSN(){
             return $this->SSN;
         }
 
-        /** Set ID Card function */
+        /** 
+         * Set ID Card function 
+         * @param String*/
         public function setIdCard($IdCard){
             $this->IdCard = $IdCard;
         }
-        /** Get ID Card function */
+        /** 
+         * Get ID Card function 
+         * @return String*/
         public function getIdCard(){
             return $this->IdCard;
         }
@@ -58,11 +75,15 @@
     class Engeneer extends Person{
         private $CREA;
 
-        /** Set CREA function */
+        /** 
+         * Set CREA function 
+         * @param String*/
         public function setCrea($CREA){
             $this->CREA = $CREA;
         }
-        /** Get CREA function */
+        /** 
+         * Get CREA function 
+         * @return String*/
         public function getCrea(){
             return $this->CREA;
         }
@@ -79,11 +100,15 @@
     class Doctor extends Person{
         private $CRM;
 
-        /** Set CRM function */
+        /** 
+         * Set CRM function 
+         * @param String*/
         public function setCrm($CRM){
             $this->CRM = $CRM;
         }
-        /** Get CRM function */
+        /** 
+         * Get CRM function 
+         * @return String*/
         public function getCrm(){
             return $this->CRM;
         }
